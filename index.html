@@ -1,55 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework4</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<!-- 1. Селектор тегу -->
-<header>
-    <h1>Заголовок сайту</h1>
-    Застосовується до тегів header, вага 1
-</header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Homework 4: CSS Selectors -->
+    <!-- 1. Селектор тегу -->
+    <header>
+      <h1>Заголовок сайту</h1>
+      Застосовується до тегів header, вага 1
+    </header>
 
-<!-- 2. Селектор класу -->
-<div class="wrapper">Застосовується до елементів з класом .wrapper, вага 10</div>
-
-<!-- 3. Селектор id -->
-<p id="intro-text">Застосовується до елементів з id #intro-text, вага 100</p>
-
-<!-- 4. Селектор атрибуту -->
-<div data-block="main">Застосовується до елементів з атрибутом [data-block], вага 10</div>
-
-<!-- 5. Вкладений селектор -->
-<div>
-    <strong>Застосовується до тегів strong, вкладених у div, вага 2</strong>
-</div>
-
-<!-- 6. Дочірній селектор -->
-<nav>
-    <a href="#">Застосовується до тегів a, що є прямими нащадками nav, вага 2</a>
-</nav>
-
-<!-- 7. Тег + клас -->
-<h3 class="subtitle">Застосовується до тегів h3 з класом .subtitle, вага 11</h3>
-
-<!-- 8. Тег + клас + атрибут -->
-<div class="note" data-state="active">
-    Застосовується до тегів div.note[data-state], вага 21
-</div>
-
-<!-- 9. Тег + id -->
-<footer id="site-footer">
-    Застосовується до тегів footer з id #site-footer, вага 101
-</footer>
-
-<!-- 10. Комбінація вкладеності -->
-<div class="grid">
-    <div class="item" data-role="special">
-        Застосовується до елементів .item[data-role], вкладених у .grid, вага 30
+    <!-- 2. Селектор класу -->
+    <div class="wrapper">
+      Застосовується до елементів з класом .wrapper, вага 10
     </div>
-</div>
-</body>
+
+    <!-- 3. Селектор id -->
+    <p id="intro-text">
+      Застосовується до елементів з id #intro-text, вага 100
+    </p>
+
+    <!-- 4. Селектор атрибуту -->
+    <div data-block="main">
+      Застосовується до елементів з атрибутом [data-block], вага 10
+    </div>
+
+    <!-- 5. Вкладений селектор -->
+    <div>
+      <strong>Застосовується до тегів strong, вкладених у div, вага 2</strong>
+    </div>
+
+    <!-- 6. Дочірній селектор -->
+    <nav>
+      <a href="#"
+        >Застосовується до тегів a, що є прямими нащадками nav, вага 2</a
+      >
+    </nav>
+
+    <!-- 7. Тег + клас -->
+    <h3 class="subtitle">
+      Застосовується до тегів h3 з класом .subtitle, вага 11
+    </h3>
+
+    <!-- 8. Тег + клас + атрибут -->
+    <div class="note" data-state="active">
+      Застосовується до тегів div.note[data-state], вага 21
+    </div>
+
+    <!-- 9. Тег + id -->
+    <footer id="site-footer">
+      Застосовується до тегів footer з id #site-footer, вага 101
+    </footer>
+
+    <!-- 10. Комбінація вкладеності -->
+    <div class="grid">
+      <div class="item" data-role="special">
+        Застосовується до елементів .item[data-role], вкладених у .grid, вага 30
+      </div>
+    </div>
+  </body>
 </html>
